@@ -83,4 +83,10 @@ class FrontEndController extends Controller
         ]);
         return back()->with('success', 'Message Send to Developer Successfully');
     }
+
+
+    // product
+    function new_product(){
+        return view('Frontends.akib');
+    }
 }

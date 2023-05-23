@@ -26,4 +26,5 @@ Route::post('/project/insert',[FrontEndController::class, 'project_insert'])->na
 Route::post('/send/message',[FrontEndController::class, 'send_message'])->name('send.message');
 
 Route::get('/view/message',[FrontEndController::class, 'view_message'])->name('view.message');
+Route::get('/new/product',[FrontEndController::class, 'new_product'])->name('new.product');
 
