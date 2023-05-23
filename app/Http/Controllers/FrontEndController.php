@@ -83,8 +83,14 @@ class FrontEndController extends Controller
         ]);
         return back()->with('success', 'Message Send to Developer Successfully');
     }
-
+// Raid
     function view_Rabid{
         return view('rabid');
+=======
+
+    // product
+    function new_product(){
+        return view('Frontends.akib');
+// main
     }
 }
