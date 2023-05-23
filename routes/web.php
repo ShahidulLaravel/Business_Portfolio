@@ -28,3 +28,10 @@ Route::post('/send/message',[FrontEndController::class, 'send_message'])->name('
 Route::get('/view/message',[FrontEndController::class, 'view_message'])->name('view.message');
 Route::get('/new/product',[FrontEndController::class, 'new_product'])->name('new.product');
 
+// Rabid
+
+Route::get('/view/Rabid',[FrontEndController::class, 'view_Rabid'])->name('view.Rabid');
+
+
+
+
