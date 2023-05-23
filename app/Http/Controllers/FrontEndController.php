@@ -83,4 +83,8 @@ class FrontEndController extends Controller
         ]);
         return back()->with('success', 'Message Send to Developer Successfully');
     }
+
+    function view_Rabid{
+        return view('rabid');
+    }
 }
